@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 if [ $# -ne 3 ]; then
+  echo "Usage: ./addgreether.sh device_name remote_ip source_device_name";
   exit 1;
 fi
 
