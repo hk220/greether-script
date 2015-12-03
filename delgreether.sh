@@ -4,4 +4,4 @@ if [ $# -ne 1 ]; then
   exit 1;
 fi
 
-ip link del $1
+ip link del ${1}
